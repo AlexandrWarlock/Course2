@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class JavaQuestionServiceTest {
     private JavaQuestionService underTest = new JavaQuestionService();
-    private Question question = new Question("one", "two");
+    private Question question = new Question("one", "four");
 
     @Test
     void add_shouldAddQuestionToSetAndReturnQuestion() {
